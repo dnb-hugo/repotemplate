@@ -1,5 +1,5 @@
 {
-  "name": "@dnb-hugo/packagename",
+  "name": "@dnb-hugo/repotemplate",
   "version": "0.0.0",
   "description": "",
   "main": "index.js",
@@ -10,13 +10,13 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/dnb-hugo/packagename.git"
+    "url": "git+https://github.com/dnb-hugo/repotemplate.git"
   },
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/dnb-hugo/packagename/issues"
+    "url": "https://github.com/dnb-hugo/repotemplate/issues"
   },
-  "homepage": "https://github.com/dnb-hugo/packagename#readme",
+  "homepage": "https://github.com/dnb-hugo/repotemplate#readme",
   "devDependencies": {
     "@dnb-hugo/commitlint-config-dnb": "github:dnb-hugo/commitlint-config-dnb",
     "@dnb-hugo/standard-version-config-dnb": "github:dnb-hugo/standard-version-config-dnb"
