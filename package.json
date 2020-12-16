@@ -1,0 +1,24 @@
+{
+  "name": "@dnb-hugo/packagename",
+  "version": "0.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "release": "standard-version --release-as patch -a -t \"v\" && ./bin/release-hook-postrelease.sh",
+    "release-next": "standard-version --release-as minor -a -t \"v\" && ./bin/release-hook-postrelease.sh",
+    "release-major": "standard-version --release-as major -a -t \"v\" && ./bin/release-hook-postrelease.sh"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dnb-hugo/packagename.git"
+  },
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/dnb-hugo/packagename/issues"
+  },
+  "homepage": "https://github.com/dnb-hugo/packagename#readme",
+  "devDependencies": {
+    "@dnb-hugo/commitlint-config-dnb": "github:dnb-hugo/commitlint-config-dnb",
+    "@dnb-hugo/standard-version-config-dnb": "github:dnb-hugo/standard-version-config-dnb"
+  }
+}
