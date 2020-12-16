@@ -1,3 +1,8 @@
+################################################################################
+# REMOVE THIS SECTION AFTER CLONING, ONLY FOR MAINTAINING THE TEMPLATE REPO
+/.idea
+################################################################################
+
 # see https://github.com/dnb-hugo/namespace/blob/main/dogmata/package-lock-files.md
 /package-lock.json
 
